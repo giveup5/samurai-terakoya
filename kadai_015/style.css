@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* ルート要素のフォントサイズ */
+:root {
+  font-size: 20px;
+}
+
+/* body全体のスタイル */
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center; /* テキスト全体を中央寄せ */
+}
+
+/* h1のスタイル */
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem; /* ルート要素(20px)の2倍 */
+  letter-spacing: 1.2em; /* 文字の大きさの1.2倍 */
+  text-shadow: 2px 2px 4px gray; /* 影（例） */
+  border-bottom: 3px solid rgb(115, 115, 114);
+}
+
+/* 文字色のクラス */
+.sky-blue {
+  color: skyblue;
+}
+
+.pink {
+  color: rgb(255, 192, 203);
+}
+
+/* id="basic"内のp要素を太字にする */
+#basic p {
+  font-weight: bold;
+}
