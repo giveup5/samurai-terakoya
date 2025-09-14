@@ -1,0 +1,33 @@
+/* ルート要素のフォントサイズを指定 */
+html {
+  font-size: 20px;
+}
+
+/* body全体のフォントとテキストの配置を指定 */
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center;
+}
+
+/* h1要素のスタイルを指定 */
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem; /* ルート要素の2倍のサイズ */
+  letter-spacing: 1.2em; /* 文字サイズに対して1.2倍の文字間 */
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* 影を付ける */
+  border-bottom: 3px solid rgb(115, 115, 114); /* 下線を引く */
+}
+
+/* クラスセレクタを使用して文字色を指定 */
+.blue {
+  color: skyblue;
+}
+
+.pink {
+  color: rgb(255, 192, 203);
+}
+
+/* id="basic"内のp要素の文字を太字にする */
+#basic p {
+  font-weight: bold;
+}
